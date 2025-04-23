@@ -1,0 +1,24 @@
+# ===== core numerical / data wrangling =====
+numpy>=1.24
+pandas>=2.2
+
+# ===== scientific computing & statistics =====
+scipy>=1.12          # GPD fit, KDE, KS-tests, log-normal modelling
+statsmodels>=0.14    # (if you used its helpers for EVT / regression)
+
+# ===== machine-learning & explainability =====
+scikit-learn==1.5.2  # IsolationForest, KMeans, Silhouette, etc.
+umap-learn>=0.5      # 2-D embedding for visual clusters           
+shap>=0.44           # feature-importance + rule extraction
+joblib>=1.3          # model persistence / parallel backend
+tqdm>=4.66           # neat progress-bars for grid-search
+
+# ===== visualisation =====
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.19         # interactive UMAP & SHAP plots (optional)
+kaleido>=0.2         # static export of Plotly figs to PNG/PDF
+
+# ===== notebook tooling =====
+jupyter>=1.0
+ipywidgets>=8.0
