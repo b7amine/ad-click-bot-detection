@@ -6,7 +6,7 @@ A repository implementing methods for detecting click-fraud bots in a privacy-pr
 
 This work focuses on identifying automated ad-clicks (bots) using only anonymized request attributes (e.g.,query strings), without relying on intrusive data collection:
 
-1. **Exploratory Analysis**: Characterized basic features such as time‑to‑click (TTC) and query duplication patterns.
+1. **Exploratory Analysis**: Characterized basic features such as time‑to‑click (TTC) and query duplication patterns. We used https://github.com/wasiahmad/aol_query_log_analysis to obtain an H_0 distribution for queries in order to compute p-value  for the pair. (number_of_words , duplication count) (more details in the paper)
 2. **Baseline Model**: Defined simple anomaly signals (fast TTC spikes and rare query duplicates) and optimized thresholds via grid search.
 3. **Machine Learning Model**: Applied an Isolation Forest on engineered features to capture more nuanced bot behaviors.
 4. **Explainability**: Derived interpretable decision‑tree rules using SHAP and UMAP embeddings to visualize anomaly clusters.
