@@ -1,4 +1,4 @@
-# Click Bot Detection under Privacy Constraints
+# Non intrusive ad click bot detection
 
 A repository implementing methods for detecting click-fraud bots in a privacy-preserving setting, as described in the accompanying paper.
 
