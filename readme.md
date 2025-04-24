@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ## Link to Paper
 
-The full methodology and results are detailed in the paper:
+The full methodology and results are detailed in the paper: https://b7amine.github.io/2025/04/24/Non-intrusive-click-bot-detection.html
 **Click-Bots Detection under Privacy Constraints** —
 
 ---
